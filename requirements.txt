@@ -1,0 +1,2 @@
+# MathMate uses only the Python standard library. No packages need to be installed.
+# Python 3.8 or newer is required (f-strings are used).
