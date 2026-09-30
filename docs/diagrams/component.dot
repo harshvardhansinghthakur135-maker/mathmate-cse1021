@@ -1,0 +1,6 @@
+digraph G { rankdir=LR; node [shape=component, style=filled, fillcolor="#eef3fb", fontname="Helvetica", fontsize=11]; edge [fontname="Helvetica", fontsize=9];
+ main [label="main.py"]; menu [label="toolkit/menu.py"]; val [label="toolkit/validation.py"]; log [label="toolkit/logger.py"];
+ b [label="toolkit/basic_algorithms.py", fillcolor="#e3f6e3"]; f [label="toolkit/factoring.py", fillcolor="#e3f6e3"]; a [label="toolkit/array_tools.py", fillcolor="#e3f6e3"]; e [label="toolkit/efficiency.py", fillcolor="#e3f6e3"];
+ t [label="tests/cases.py + run_tests.py", fillcolor="#fde3e3"];
+ main->menu; menu->val [label="uses"]; menu->log [label="uses"]; menu->b; menu->f; menu->a; menu->e; t->b; t->f; t->a; t->e; t->val; t->main [label="subprocess", style=dashed];
+}

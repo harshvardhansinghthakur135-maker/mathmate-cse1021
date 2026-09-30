@@ -1,0 +1,61 @@
+==============================================
+  MathMate - Problem Solving Toolkit (CSE1021)
+==============================================
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 2
+
+--- Factoring & Number Theory (Unit 4) ---
+  1. Integer square root
+  2. Smallest divisor / prime check
+  3. GCD and LCM
+  4. Generate primes (sieve)
+  5. Prime factors
+  6. Pseudo-random numbers
+  7. Raise a number to a large power
+  8. nth Fibonacci number
+  0. Back
+Choose an option: 5
+  Enter a number (>= 2): 360
+  Prime factors: [2, 2, 2, 3, 3, 5]   ->   360 = 2^3 x 3^2 x 5
+
+--- Factoring & Number Theory (Unit 4) ---
+  1. Integer square root
+  2. Smallest divisor / prime check
+  3. GCD and LCM
+  4. Generate primes (sieve)
+  5. Prime factors
+  6. Pseudo-random numbers
+  7. Raise a number to a large power
+  8. nth Fibonacci number
+  0. Back
+Choose an option: 7
+  Base: 2
+  Exponent (0-2000): 100
+  2^100 = 1267650600228229401496703205376  (31 digits)
+
+--- Factoring & Number Theory (Unit 4) ---
+  1. Integer square root
+  2. Smallest divisor / prime check
+  3. GCD and LCM
+  4. Generate primes (sieve)
+  5. Prime factors
+  6. Pseudo-random numbers
+  7. Raise a number to a large power
+  8. nth Fibonacci number
+  0. Back
+Choose an option: 0
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 0
+Goodbye!

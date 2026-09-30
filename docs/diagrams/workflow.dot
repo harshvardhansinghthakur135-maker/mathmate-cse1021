@@ -1,0 +1,18 @@
+digraph G { rankdir=TB; node [fontname="Helvetica", fontsize=11]; edge [fontname="Helvetica", fontsize=9];
+ s [label="Start", shape=oval, style=filled, fillcolor="#d9f2d9"];
+ mm [label="Show main menu", shape=box, style=rounded];
+ c1 [label="Choice valid?", shape=diamond];
+ ex [label="Choice = 0 (Exit)?", shape=diamond];
+ sm [label="Show submenu of chosen module", shape=box, style=rounded];
+ c2 [label="Submenu choice valid?", shape=diamond];
+ back [label="Choice = 0 (Back)?", shape=diamond];
+ inp [label="Read input\n(validate type and range;\nask again if invalid)", shape=parallelogram];
+ proc [label="Run algorithm function", shape=box, style=rounded];
+ err [label="ValueError?", shape=diamond];
+ out [label="Print result\nlog INFO", shape=parallelogram];
+ emsg [label="Print error message\nlog WARNING", shape=parallelogram];
+ e [label="Stop", shape=oval, style=filled, fillcolor="#f7d9d9"];
+ s->mm->ex; ex->e [label="Yes"]; ex->c1 [label="No"]; c1->mm [label="No: message"]; c1->sm [label="Yes"];
+ sm->back; back->mm [label="Yes"]; back->c2 [label="No"]; c2->sm [label="No: message"]; c2->inp [label="Yes"];
+ inp->proc->err; err->emsg [label="Yes"]; err->out [label="No"]; emsg->sm; out->sm;
+}

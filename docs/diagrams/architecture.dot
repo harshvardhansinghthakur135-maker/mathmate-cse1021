@@ -1,0 +1,13 @@
+digraph G { rankdir=TB; node [shape=box, style="rounded,filled", fillcolor="#eef3fb", fontname="Helvetica", fontsize=11]; edge [fontname="Helvetica", fontsize=9];
+ user [label="User (keyboard / terminal)", shape=oval, fillcolor="#fff4d6"];
+ subgraph cluster_ui { label="Presentation layer"; style=dashed; main [label="main.py\n(entry point)"]; menu [label="menu.py\nmain menu + 4 submenus\n(dictionary dispatch tables)"]; }
+ subgraph cluster_val { label="Validation layer"; style=dashed; val [label="validation.py\nread_int / read_int_list / read_text"]; }
+ subgraph cluster_mod { label="Algorithm modules (business logic)"; style=dashed;
+  m1 [label="basic_algorithms.py\nModule 1: Number Basics\n(Unit 3)", fillcolor="#e3f6e3"];
+  m2 [label="factoring.py\nModule 2: Factoring\n(Unit 4)", fillcolor="#e3f6e3"];
+  m3 [label="array_tools.py\nModule 3: Array Analyzer\n(Unit 5)", fillcolor="#e3f6e3"];
+  m4 [label="efficiency.py\nModule 4: Efficiency Lab\n(Unit 1 / Unit 5 trade-off)", fillcolor="#e3f6e3"]; }
+ subgraph cluster_sup { label="Support"; style=dashed; log [label="logger.py"]; file [label="logs/mathmate.log", shape=note, fillcolor="#f2f2f2"]; }
+ tests [label="tests/ (70 test cases)", shape=box3d, fillcolor="#fde3e3"];
+ user -> main -> menu; menu -> val [label="reads input"]; menu -> m1; menu -> m2; menu -> m3; menu -> m4; menu -> log; log -> file; m3 -> m4 [style=invis]; tests -> m1 [style=dashed]; tests -> m2 [style=dashed]; tests -> m3 [style=dashed]; tests -> m4 [style=dashed]; tests -> val [style=dashed];
+}

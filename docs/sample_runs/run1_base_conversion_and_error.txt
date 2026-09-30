@@ -1,0 +1,62 @@
+==============================================
+  MathMate - Problem Solving Toolkit (CSE1021)
+==============================================
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 1
+
+--- Number Basics (Unit 3) ---
+  1. Swap two values
+  2. Count digits and sum of digits
+  3. Factorial
+  4. Fibonacci series
+  5. Reverse a number / palindrome check
+  6. Decimal to another base
+  7. Another base to decimal
+  8. Character to number codes
+  0. Back
+Choose an option: 6
+  Decimal number: 255
+  Target base (2-16): 16
+  255 in base 16 = FF
+
+--- Number Basics (Unit 3) ---
+  1. Swap two values
+  2. Count digits and sum of digits
+  3. Factorial
+  4. Fibonacci series
+  5. Reverse a number / palindrome check
+  6. Decimal to another base
+  7. Another base to decimal
+  8. Character to number codes
+  0. Back
+Choose an option: 7
+  Source base (2-16): 2
+  Number in that base: 1092
+  Error: '9' is not a valid digit in base 2.
+
+--- Number Basics (Unit 3) ---
+  1. Swap two values
+  2. Count digits and sum of digits
+  3. Factorial
+  4. Fibonacci series
+  5. Reverse a number / palindrome check
+  6. Decimal to another base
+  7. Another base to decimal
+  8. Character to number codes
+  0. Back
+Choose an option: 0
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 0
+Goodbye!

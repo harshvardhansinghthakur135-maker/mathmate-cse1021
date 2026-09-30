@@ -1,0 +1,70 @@
+==============================================
+  MathMate - Problem Solving Toolkit (CSE1021)
+==============================================
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 4
+
+--- Efficiency Lab (Unit 1 analysis) ---
+  1. Smallest divisor: naive vs sqrt method
+  2. Power: multiplication vs squaring
+  3. Duplicates: nested loops vs set (time trade-off)
+  0. Back
+Choose an option: 1
+  Number to test (>= 2, try 999983): 999983
+  Smallest divisor of 999983
+  Method                             Steps
+  Try every number                  999982
+  Odd numbers up to sqrt(n)            500
+  Improved method used 2000.0x fewer steps.
+  Verification: both methods agree
+
+--- Efficiency Lab (Unit 1 analysis) ---
+  1. Smallest divisor: naive vs sqrt method
+  2. Power: multiplication vs squaring
+  3. Duplicates: nested loops vs set (time trade-off)
+  0. Back
+Choose an option: 2
+  Base: 2
+  Exponent (0-5000): 1000
+  2^1000
+  Method                             Steps
+  Repeated multiplication             1000
+  Repeated squaring                     16
+  Improved method used 62.5x fewer steps.
+  Verification: both methods agree
+
+--- Efficiency Lab (Unit 1 analysis) ---
+  1. Smallest divisor: naive vs sqrt method
+  2. Power: multiplication vs squaring
+  3. Duplicates: nested loops vs set (time trade-off)
+  0. Back
+Choose an option: 3
+  Enter numbers: 5 3 9 3
+  Duplicate check
+  Method                             Steps
+  Nested loops (comparisons)             5
+  Set (lookups, extra memory)            4
+  Improved method used 1.2x fewer steps.
+  Duplicates present: Yes
+
+--- Efficiency Lab (Unit 1 analysis) ---
+  1. Smallest divisor: naive vs sqrt method
+  2. Power: multiplication vs squaring
+  3. Duplicates: nested loops vs set (time trade-off)
+  0. Back
+Choose an option: 0
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 0
+Goodbye!

@@ -1,0 +1,66 @@
+==============================================
+  MathMate - Problem Solving Toolkit (CSE1021)
+==============================================
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 3
+
+--- Array & List Analyzer (Unit 5) ---
+  1. Summary statistics
+  2. Reverse the list
+  3. Count occurrences
+  4. Remove duplicates (ordered list)
+  5. Partition around a pivot
+  6. Kth smallest element
+  7. Frequency table (dictionary)
+  8. Set operations on two lists
+  0. Back
+Choose an option: 1
+  Enter numbers (space/comma separated): 12 5 9 5 20 1
+   count    : 6
+   sum      : 52
+   mean     : 8.67
+   maximum  : 20
+   minimum  : 1
+   distinct : 5
+
+--- Array & List Analyzer (Unit 5) ---
+  1. Summary statistics
+  2. Reverse the list
+  3. Count occurrences
+  4. Remove duplicates (ordered list)
+  5. Partition around a pivot
+  6. Kth smallest element
+  7. Frequency table (dictionary)
+  8. Set operations on two lists
+  0. Back
+Choose an option: 6
+  Enter numbers: 9 4 7 1 8
+  k (1-5): 3
+  Kth smallest element (k = 3) is 7
+
+--- Array & List Analyzer (Unit 5) ---
+  1. Summary statistics
+  2. Reverse the list
+  3. Count occurrences
+  4. Remove duplicates (ordered list)
+  5. Partition around a pivot
+  6. Kth smallest element
+  7. Frequency table (dictionary)
+  8. Set operations on two lists
+  0. Back
+Choose an option: 0
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 0
+Goodbye!

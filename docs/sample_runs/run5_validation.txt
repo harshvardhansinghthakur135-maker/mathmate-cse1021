@@ -1,0 +1,50 @@
+==============================================
+  MathMate - Problem Solving Toolkit (CSE1021)
+==============================================
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 1
+
+--- Number Basics (Unit 3) ---
+  1. Swap two values
+  2. Count digits and sum of digits
+  3. Factorial
+  4. Fibonacci series
+  5. Reverse a number / palindrome check
+  6. Decimal to another base
+  7. Another base to decimal
+  8. Character to number codes
+  0. Back
+Choose an option: 3
+  Enter n (0-500): abc
+  Invalid input: please enter a whole number.
+  Enter n (0-500): 999
+  Value must be at most 500.
+  Enter n (0-500): 5
+  5! = 120
+
+--- Number Basics (Unit 3) ---
+  1. Swap two values
+  2. Count digits and sum of digits
+  3. Factorial
+  4. Fibonacci series
+  5. Reverse a number / palindrome check
+  6. Decimal to another base
+  7. Another base to decimal
+  8. Character to number codes
+  0. Back
+Choose an option: 0
+
+MAIN MENU
+  1. Number Basics (Unit 3)
+  2. Factoring & Number Theory (Unit 4)
+  3. Array & List Analyzer (Unit 5)
+  4. Efficiency Lab (Unit 1 analysis)
+  0. Exit
+Choose an option: 0
+Goodbye!

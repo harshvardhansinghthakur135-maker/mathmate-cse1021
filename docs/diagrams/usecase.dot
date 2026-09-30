@@ -1,0 +1,15 @@
+digraph G { rankdir=LR; node [fontname="Helvetica", fontsize=11]; 
+ user [label="Student / User\n(actor)", shape=box, style=filled, fillcolor="#fff4d6"];
+ subgraph cluster_s { label="MathMate system"; style=rounded; node [shape=ellipse, style=filled, fillcolor="#eef3fb"];
+  u1 [label="Solve number basics\n(swap, digits, factorial,\nFibonacci, reverse, base, char code)"];
+  u2 [label="Factor and analyse numbers\n(sqrt, divisor, GCD/LCM, primes,\nprime factors, random, power)"];
+  u3 [label="Analyse a list\n(stats, reverse, count, duplicates,\npartition, Kth smallest, sets)"];
+  u4 [label="Compare algorithm efficiency"];
+  u5 [label="Validate input\n(re-ask on bad input)", fillcolor="#e3f6e3"];
+  u6 [label="View error messages", fillcolor="#e3f6e3"];
+  u7 [label="Record activity in log", fillcolor="#e3f6e3"]; }
+ user->u1; user->u2; user->u3; user->u4;
+ u1->u5 [style=dashed, label="<<include>>"]; u2->u5 [style=dashed]; u3->u5 [style=dashed]; u4->u5 [style=dashed];
+ u1->u6 [style=dashed, label="<<extend>>"]; u2->u6 [style=dashed]; u3->u6 [style=dashed]; u4->u6 [style=dashed];
+ u1->u7 [style=dashed]; u2->u7 [style=dashed]; u3->u7 [style=dashed]; u4->u7 [style=dashed];
+}
